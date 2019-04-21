@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Citations De Fou</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body id="body">
+    <div class="container">
+
+        <h1>Attention générateur de citation totalement immature </br>(deconseillé au gens sérieux!)</h1>
+
+        <button class="btn btn-outline-primary" type="button" id="startGenerator">Lancer le Générateur</button>
+
+        <div id="form">
+
+            <label for="nbrCitation">Nombre de citations générées ?</label>
+            <select class="custom-select" name="nbrCitation" id="nbrCitation">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+
+            <label for="choixGenerateur"> Quel Generateur voulez-vous chosir ?</label>
+            <select class="custom-select" name="choixGenerateur" id="choixGenerateur">
+                <option value="a">a</option>
+                <option value="b">b</option>
+            </select>
+
+            <div>
+                <button class="btn btn-outline-primary" type="button" id="generate">Générer</button>
+                <button class="btn btn-outline-primary" type="button" id="quit">quitter</button>
+            </div>
+        </div>
+
+        <p id="paraCit"></p>
+
+
+
+        <script src="alternatif.js"></script>
+    </div>
+</body>
